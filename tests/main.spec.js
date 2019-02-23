@@ -105,11 +105,11 @@ describe('Spotify Wrapper', () => {
     it('should call fetch with the correct URL', () => {
       const Albums = searchAlbums('Incubus');
       expect(fetchedStub).to.have.been
-        .calledWith('https://api.spotify.com/v1/search?q=Incubus&type=albums');
+        .calledWith('https://api.spotify.com/v1/search?q=Incubus&type=album');
 
       const Albums2 = searchAlbums('Muse');
       expect(fetchedStub).to.have.been
-        .calledWith('https://api.spotify.com/v1/search?q=Muse&type=albums');
+        .calledWith('https://api.spotify.com/v1/search?q=Muse&type=album');
     });
   });
 

@@ -1,4 +1,4 @@
-const TOKEN_API = 'BQAtAjLb3FTuKNrQYygrSTZ0xpiM7Y1QsY1Xw2ctf-2jV7r6OVEYXJpG8fJSjd3IkqDZQiprbxi9Kcz7Ef-Hwr7hxrYHZdcaOlfZH30SryVB6MW-7NEWtzAoAT33ACCOcO_1KYArHKSw8evsVfc';
+const TOKEN_API = 'BQD-v5X4ioPyQ6NUzXmk7pnMqLTmWizkWB1cJVpRtSfiSzhuhOrWeawFi7c4R7CS-5WHzdMSTrsRl049kYIAqL0Cd7WahcmMx7I4d6DsBkAa2kGxOVxrpYOAgxrhpwlTrz21fBqbl6_-b5058rs';
 
 export const API_URL = 'https://api.spotify.com/v1';
 
