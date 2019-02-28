@@ -2,7 +2,7 @@
   "name": "js-tdd-course",
   "version": "1.0.0",
   "description": "Nossa biblioteca do curso de JS com TDD na prática.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "clear": "rimraf lib",
     "build": "npm run clear && ./node_modules/.bin/babel --out-dir lib src",
@@ -48,7 +48,7 @@
     "husky": "0.11.9",
     "mocha": "^5.1.1",
     "nyc": "^13.3.0",
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.6.3",
     "sinon": "2.1.0",
     "sinon-chai": "^3.0.0",
     "sinon-stub-promise": "^4.0.0"

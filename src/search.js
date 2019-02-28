@@ -1,10 +1,10 @@
 import { API_URL, HEADERS } from './config';
-import { toJSON } from './util';
+// import { toJSON } from './util';
 
 /* eslint-disable no-undef */
 export const search = (query, type) =>
   fetch(`${API_URL}/search?q=${query}&type=${type}`, HEADERS)
-    .then(toJSON);
+    .then(data => data.json());
 
 export const searchAlbums = query =>
   search(query, 'album');

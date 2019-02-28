@@ -1,4 +1,5 @@
-/* eslint-disable no-undef */
+/* global fetch */
+
 import { HEADERS, API_URL } from './config';
 import { toJSON } from './util';
 
@@ -13,4 +14,3 @@ export const getAlbums = ids =>
 export const getAlbumTracks = id =>
   fetch(`${API_URL}/albums/${id}/tracks`, HEADERS)
     .then(toJSON);
-
